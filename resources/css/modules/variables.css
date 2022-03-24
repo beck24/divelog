@@ -1,0 +1,7 @@
+:root {
+    --color-bg: #1d1b1c;
+    --color-text: #ffffff;
+
+    --color-anchor: var(--color-text);
+    --color-anchor-visited: #ececec;
+}

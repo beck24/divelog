@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "modules/variables.css";
+@import "modules/layout.css";
+@import "modules/typography.css";
+@import "modules/forms.css";
