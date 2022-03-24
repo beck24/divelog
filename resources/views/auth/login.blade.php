@@ -61,6 +61,15 @@
                             @endif
                         </div>
                     </div>
+
+                    <div class="mt-6">
+                        @if (Route::has('register'))
+                            Need an account?
+                            <a href="{{ route('register') }}">
+                                {{ __('Register') }}
+                            </a>
+                        @endif
+                    </div>
                 </form>
             </div>
         </div>
