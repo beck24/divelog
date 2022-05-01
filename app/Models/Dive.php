@@ -18,4 +18,12 @@ class Dive extends Model
     public function buddies() {
         return $this->belongsToMany(Buddy::class);
     }
+
+    public function site() {
+        return $this->belongsTo(Sitename::class);
+    }
+
+    public function location() {
+        return $this->belongsTo(Sitelocation::class);
+    }
 }

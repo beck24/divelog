@@ -42,4 +42,12 @@ class User extends Authenticatable
     public function dives() {
         return $this->hasMany(Dive::class);
     }
+
+    public function sitelocation() {
+        return $this->hasMany(Sitelocation::class);
+    }
+
+    public function sitename() {
+        return $this->hasMany(Sitename::class);
+    }
 }
